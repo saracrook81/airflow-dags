@@ -19,3 +19,4 @@ with DAG(
         task_id="say_hello",         # name of this step
         python_callable=say_hello,   # the function to run
     )
+print("DAG script executed successfully!")
